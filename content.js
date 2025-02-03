@@ -24,6 +24,15 @@ function hideShortsContent() {
       element.style.display = 'none';
     }
   });
+
+  // ytd-reel-shelf-renderer 요소 숨기기
+  const reelShelfElements = document.querySelectorAll('ytd-reel-shelf-renderer.style-scope');
+  reelShelfElements.forEach(element => {
+    const titleSpan = element.querySelector('span#title.style-scope.ytd-rich-shelf-renderer');
+    if (titleSpan && titleSpan.innerHTML.includes('Shorts')) {
+      element.style.display = 'none';
+    }
+  });
 }
 
 // 페이지의 변경사항을 관찰
