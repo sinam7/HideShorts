@@ -17,10 +17,6 @@ A Chrome extension that automatically hides Shorts content on YouTube.
 4. Click the “Load unzipped extension” button.
 5. Select the downloaded folder.
 
-## File structure 
-
-Translated with DeepL.com (free version)
-
 ---
 
 # YouTube Shorts Blocker
@@ -41,5 +37,3 @@ YouTube에서 Shorts 콘텐츠를 자동으로 숨겨주는 Chrome 확장 프로
 3. 우측 상단의 "개발자 모드"를 켭니다.
 4. "압축해제된 확장 프로그램을 로드합니다" 버튼을 클릭합니다.
 5. 다운로드한 폴더를 선택합니다.
-
-## 파일 구조 
