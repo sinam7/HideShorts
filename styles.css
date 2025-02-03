@@ -22,3 +22,7 @@ div#dismissible.style-scope.ytd-rich-shelf-renderer:has(span#title:contains("Sho
 ytd-reel-shelf-renderer.style-scope:has(span#title:contains("Shorts")) {
   display: none !important;
 } 
+
+yt-chip-cloud-chip-renderer.style-scope:has(span#text:contains("Shorts")) {
+  display: none !important;
+}
